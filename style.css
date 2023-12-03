@@ -82,8 +82,9 @@ h2{
     background-color: rgb(137, 138, 139);
 }
 
-@media (min-width:100px)and (max-width: 980px) {
+@media(max-width: 1000px) {
     .Functionalitie {
       grid-template-columns: repeat(2, minmax(0, 1fr)); /* Change to two columns for mobile screens */
+      width: 300px;
     }
   }
