@@ -71,7 +71,6 @@ h2{
 }
 .Functionalitie span{
     transition: transform 0.3s ease;
-   
     padding: 10px;
     background-color:rgb(194, 12, 12);
     border-radius: 5px;
@@ -84,7 +83,8 @@ h2{
 
 @media(max-width: 1000px) {
     .Functionalitie {
-      grid-template-columns: repeat(2, minmax(0, 1fr)); /* Change to two columns for mobile screens */
-      width: 300px;
+        grid-template-columns: repeat(2,  1fr);  /* Change to two columns for mobile screens */
+
     }
-  }
+   
+}
