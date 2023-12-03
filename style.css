@@ -1,0 +1,72 @@
+
+.logopic{
+   
+    align-items: center;
+   
+    margin-bottom: 0; /* Adjust the value as needed for medium and larger screens */
+    margin-right: 100px; /* Adjust the value as needed for medium and larger screens */
+    text-decoration: none; /* Assuming you want to remove the default underline */
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+#btn:hover{
+    background-color: rgb(108, 112, 119);
+}
+p{
+   text-align: justify;
+}
+.navbar{
+    background-color: rgb(23, 31, 39);
+}
+.navbar-nav li{
+    width: 200px;
+    text-align: center;
+    
+}
+.navbar-nav li:hover{
+    background-color: rgb(66, 67, 68);
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.overflow-hidden img{
+    width:400px;
+    height: 400px;
+    transition: transform 0.3s ease;
+}
+.overflow-hidden img:hover{
+    transform: translate(-5px, 5px); 
+}
+.carousel{
+width: 100%;
+text-align: center;}
+    
+.carousel img{
+    width: 100%;
+    height: 600px;
+    border-radius: 20px
+}
+.icons{
+    height: 50px;
+    padding: 10px;
+    
+}
+.Functionalitie{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+   gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.Functionalitie p{
+  text-align: left;
+}
+.Functionalitie span{
+    padding: 10px;
+    background-color:brown;
+    border-radius: 3px;
+}
+
