@@ -55,7 +55,7 @@ text-align: center;}
 }
 .Functionalitie{
     display: grid;
-    grid-template-columns: repeat(3,  1fr); 
+    grid-template-columns: repeat(2,  1fr); 
    gap: 20px;
     list-style: none;
     flex-wrap: nowrap;
@@ -83,7 +83,7 @@ h2{
 
 @media(max-width: 1000px) {
     .Functionalitie {
-        grid-template-rows: repeat(2,  1fr);  /* Change to two columns for mobile screens */
+        grid-template-columns: repeat(2,  1fr);  /* Change to two columns for mobile screens */
     }
    
 }
