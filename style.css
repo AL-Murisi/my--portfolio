@@ -55,18 +55,35 @@ text-align: center;}
 }
 .Functionalitie{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4,  1fr); 
    gap: 20px;
     list-style: none;
     flex-wrap: wrap;
+    
 }
-
+h2{
+    padding-bottom: 15px;
+    font-weight:bold;
+}
 .Functionalitie p{
   text-align: left;
+  margin-top: 10PX;
 }
 .Functionalitie span{
+    transition: transform 0.3s ease;
+   
     padding: 10px;
-    background-color:brown;
-    border-radius: 3px;
+    background-color:rgb(194, 12, 12);
+    border-radius: 5px;
 }
 
+.Functionalitie span:hover{
+    transform: translate(5px, -5px); 
+    background-color: rgb(137, 138, 139);
+}
+
+@media (min-width:100px)and (max-width: 980px) {
+    .Functionalitie {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* Change to two columns for mobile screens */
+    }
+  }
