@@ -1,89 +1,104 @@
+.logopic {
+  align-items: center;
 
-.logopic{
-   
-    align-items: center;
-   
-    margin-bottom: 0; /* Adjust the value as needed for medium and larger screens */
-    margin-right: 100px; /* Adjust the value as needed for medium and larger screens */
-    text-decoration: none; /* Assuming you want to remove the default underline */
-    height: 40px;
-    width: 150px;
-    border-radius: 10px;
-
+  margin-bottom: 0; /* Adjust the value as needed for medium and larger screens */
+  margin-right: 100px; /* Adjust the value as needed for medium and larger screens */
+  text-decoration: none; /* Assuming you want to remove the default underline */
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
 }
-#btn:hover{
-    background-color: rgb(108, 112, 119);
+#btn:hover {
+  background-color: rgb(108, 112, 119);
 }
-p{
-   text-align: justify;
+p {
+  text-align: justify;
 }
-.navbar{
-    background-color: rgb(23, 31, 39);
+.navbar {
+  background-color: rgb(23, 31, 39);
 }
-.navbar-nav li{
-    width: 200px;
-    text-align: center;
-    
+.navbar-nav li {
+  width: 200px;
+  text-align: center;
 }
-.navbar-nav li:hover{
-    background-color: rgb(66, 67, 68);
-    border-radius: 10px;
-    /* text-align: center; */
+.navbar-nav li:hover {
+  background-color: rgb(66, 67, 68);
+  border-radius: 10px;
+  /* text-align: center; */
 }
 
-.overflow-hidden img{
-    width:400px;
-    height: 400px;
-    transition: transform 0.3s ease;
+.overflow-hidden img {
+  width: 400px;
+  height: 400px;
+  transition: transform 0.3s ease;
 }
-.overflow-hidden img:hover{
-    transform: translate(-5px, 5px); 
+.overflow-hidden img:hover {
+  transform: translate(-5px, 5px);
 }
 .custom-carousel {
-    width: 97%; /* Adjust the width as needed */
+  width: 97%; /* Adjust the width as needed */
+  margin: auto; /* Center the carousel horizontally */
+}
+.carousel img {
+  /* margin-left: 200px;*/
+ 
+  height: 500px;
+  border-radius: 20px;
+}
+.icons {
+  height: 50px;
+  padding: 10px;
+ 
+  border-radius: 10px;
+ 
+}
+
+.functiona{
+    margin: 15px;
+    text-align: center;
+}
+.Functionalitie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+h2 {
+  padding: 20px;
+  font-weight: bold;
+}
+.Functionalitie p {
+    text-align: center;
+  margin-top: 10px;
+}
+.Functionalitie span {
+  transition: transform 0.3s ease;
+  padding: 10px;
+  background-color: rgb(194, 12, 12);
+  border-radius: 5px;
+}
+
+.Functionalitie span:hover {
+  transform: translate(5px, -5px);
+  background-color: rgb(137, 138, 139);
+}
+
+@media (max-width: 1000px) {
+  .Functionalitie {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Change to two columns for mobile screens */
+  }
+  .custom-carousel {
+    width: 90%; /* Adjust the width as needed */
     margin: auto; /* Center the carousel horizontally */
   }
-.carousel img{
-    width: 100%;
-    height: 600px;
-    border-radius: 20px
-}
-.icons{
-    height: 50px;
-    padding: 10px;
-    
-}
-.Functionalitie{
-    display: grid;
-    grid-template-columns: repeat(2,  1fr); 
-   gap: 20px;
-    list-style: none;
-    flex-wrap: nowrap;
-    
-}
-h2{
-    padding-bottom: 15px;
-    font-weight:bold;
-}
-.Functionalitie p{
-  text-align: left;
-  margin-top: 10PX;
-}
-.Functionalitie span{
-    transition: transform 0.3s ease;
-    padding: 10px;
-    background-color:rgb(194, 12, 12);
-    border-radius: 5px;
-}
-
-.Functionalitie span:hover{
-    transform: translate(5px, -5px); 
-    background-color: rgb(137, 138, 139);
-}
-
-@media(max-width: 1000px) {
-    .Functionalitie {
-        grid-template-columns: repeat(2,  1fr);  /* Change to two columns for mobile screens */
-    }
+  .carousel img {
+    /* margin-left: 200px;*/
    
+    height: 450px;
+    border-radius: 10px;
+  }
 }
