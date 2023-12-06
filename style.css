@@ -28,8 +28,10 @@ p {
 }
 
 .overflow-hidden img {
+  border-top: 2px solid orangered;
   width: 400px;
   height: 400px;
+
   transition: transform 0.3s ease;
 }
 .overflow-hidden img:hover {
@@ -39,28 +41,28 @@ p {
   width: 97%; /* Adjust the width as needed */
   margin: auto; /* Center the carousel horizontally */
 }
+
 .carousel img {
   /* margin-left: 200px;*/
- 
-  height: 500px;
+  text-align: center;
+  height: 550px;
   border-radius: 20px;
 }
 .icons {
   height: 50px;
   padding: 10px;
- 
+
   border-radius: 10px;
- 
 }
 
-.functiona{
-    margin: 15px;
-    text-align: center;
+.functiona {
+  margin: 15px;
+  text-align: center;
 }
 .Functionalitie {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 40px;
   list-style: none;
   flex-wrap: nowrap;
 }
@@ -69,7 +71,7 @@ h2 {
   font-weight: bold;
 }
 .Functionalitie p {
-    text-align: center;
+  text-align: center;
   margin-top: 10px;
 }
 .Functionalitie span {
@@ -97,7 +99,7 @@ h2 {
   }
   .carousel img {
     /* margin-left: 200px;*/
-   
+
     height: 450px;
     border-radius: 10px;
   }
